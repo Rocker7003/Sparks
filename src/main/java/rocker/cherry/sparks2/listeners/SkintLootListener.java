@@ -204,7 +204,7 @@ public class SkintLootListener implements Listener {
                 .findFirst()
                 .ifPresent(cat -> {
                     List<WeightedLootEntry> catLootTable = Arrays.asList(
-                            new WeightedLootEntry(SkintItem.SKINT_CRUMB.createItemStack(), 15), // lime_candle in JSON
+                            new WeightedLootEntry(SkintItem.SKINT_CRUMB.createItemStack(), 15),
                             new WeightedLootEntry(new ItemStack(Material.PHANTOM_MEMBRANE), 10),
                             new WeightedLootEntry(new ItemStack(Material.STRING), 10),
                             new WeightedLootEntry(new ItemStack(Material.RABBIT_FOOT), 10),
