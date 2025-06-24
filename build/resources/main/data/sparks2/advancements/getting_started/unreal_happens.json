@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:purple_candle",
+      "nbt": "{CustomModelData:5,skint_item_marker:1b}"
+    },
+    "title": {
+      "translate": "Невозможное случается"
+    },
+    "description": {
+      "translate": "Вы либо очень везучи, либо сумасшедший..."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_honed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:purple_candle"
+            ],
+            "nbt": "{CustomModelData:5,skint_item_marker:1b}",
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

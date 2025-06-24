@@ -1,0 +1,96 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:cyan_candle",
+        "nbt": "{CustomModelData:3,skint_item_marker:1b}"
+      },
+      "title": {
+        "translate": "Начало Пути"
+      },
+      "description": {
+        "translate": "Получите любой скинт."
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "minecraft:adventure/kill_a_mob",  
+    "criteria": {
+      "got_small_shard": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:lime_candle"
+              ],
+              "nbt": "{CustomModelData:2,skint_item_marker:1b}",
+              "count": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "got_shard": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:green_candle"
+              ],
+              "nbt": "{CustomModelData:1,skint_item_marker:1b}",
+              "count": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "got_fragment": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:light_blue_candle"
+              ],
+              "nbt": "{CustomModelData:4,skint_item_marker:1b}",
+              "count": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "got_crystal": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:cyan_candle"
+              ],
+              "nbt": "{CustomModelData:3,skint_item_marker:1b}",
+              "count": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 50
+    },
+    "requirements": [
+      [
+        "got_small_shard",
+        "got_shard",
+        "got_fragment",
+        "got_crystal"
+      ]
+    ]
+  }

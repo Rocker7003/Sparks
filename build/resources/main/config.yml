@@ -1,0 +1,60 @@
+# Шансы дропа скинтов
+drop_chances:
+  warden:
+    skint_crystal: 0.10
+    skintonite: 0.15
+    skint_fragment: 0.05
+  blaze:
+    skint_shard: 0.0375
+    skintonite: 0.05
+  cave_spider:
+    skint_crumb: 0.05 
+  creeper:
+    skint_crumb: 0.023 
+    skintonite: 0.15 
+  drowned:
+    skint_crumb: 0.02
+    skintonite: 0.002 
+  enderman:
+    skintonite: 0.05
+  husk:
+    skint_crumb: 0.023
+    skintonite: 0.05
+  magma_cube:
+    skint_shard: 0.0375
+    skintonite: 0.05
+  piglin_brute:
+    skint_shard: 0.0375
+    skintonite: 0.05
+  piglin:
+    skint_shard: 0.0375
+    skintonite: 0.05
+  skeleton:
+    skint_crumb: 0.023
+    skintonite: 0.15
+  spider:
+    skint_crumb: 0.023
+    skintonite: 0.05
+  wither_skeleton:
+    skint_shard: 0.0375
+    skintonite: 0.05
+  wither:
+    skint_honed: 0.005
+  zombie_villager:
+    skint_crumb: 0.023
+    skintonite: 0.05
+  zombie:
+    skint_crumb: 0.023
+    skintonite: 0.05
+  diamond_ore:
+    skint_shard: 0.15 
+  deepslate_diamond_ore:
+    skint_shard: 0.25 
+
+
+skintonite_timer_interval: 600 # 30 секунд
+
+messages:
+  pockets_lighter: "Вы чувствуете, как ваши карманы стали легче..."
+  consuming_life_force: "Скинтонит начинает поглощать вашу жизненную силу..."
+  lost_light: "{player} потерял свой свет"

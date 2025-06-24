@@ -1,0 +1,11 @@
+name: Sparks2
+version: '2.0'
+main: rocker.cherry.sparks2.Sparks2
+api-version: '1.21'
+authors: [ Rocker7003 ]
+commands:
+  skint:
+    description: Gives a skint item.
+    usage: /skint <type>
+    permission: skint.give
+    permission-message: Пошел ты нахуй
